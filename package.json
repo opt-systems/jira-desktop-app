@@ -1,0 +1,22 @@
+{
+  "name": "jira-desktop-app",
+  "version": "1.0.0",
+  "description": "Jira Desktop App",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:jira": "node src/jira/build.js",
+    "build:jira-dark": "node src/jira/build-dark.js",
+    "build:all": "yarn build:jira && yarn build:jira-dark",
+    "build": "yarn build:all"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://opt.si",
+  "devDependencies": {
+    "nativefier": "^11.0.2"
+  }
+}
