@@ -4,7 +4,7 @@ const path = require('path');
 
 var opt = {
     name: 'Jira Dark',
-    targetUrl: 'https://optsystems.atlassian.net/jira/projects',
+    targetUrl: 'https://{YOUR_COMPANY_NAME}.atlassian.net/jira/projects',
     version: '1.0.0',
     out: './dist',
     overwrite: true,

@@ -5,6 +5,8 @@
 
 1. How to use:
 
+- Change {YOUR_COMPANY_NAME} in `src/jira/build.js` and `src/jira/build-dark.js` for dark mode
+
 - Clone this repo. e.g. 
 ```
   git clone https://github.com/opt-systems/jira-desktop-app.git
